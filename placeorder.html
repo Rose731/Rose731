@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Place order
+        </title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <style>
+    body{
+        background-color:rgb(159, 159, 96);
+    }
+    img{
+        border-radius: 10px;
+    }
+    a{
+        padding-left:50% ;
+    }
+    button{
+        color:white;
+        background-color: black;
+    }
+    .button{
+        color:white;
+        background-color: black;
+    }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1"></span>
+            
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="profile.html"><button>Profile</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="placeorder.html"><button>Place order</button></a>
+                </li>
+                
+              
+            </div>
+          </nav>
+          Enter the medium of you portraits:
+          <select name="sheet">
+            <option name="a4">Graphite Pencil</option>
+            <option name="a3">Colour Pencil</option>
+            <option name="a2">Ball Pen</option>
+            <option name="a1">Oil pastels</option>
+
+
+          </select><br><br>
+          Enter the size of the drawing: 
+          <select name="sheet">
+            <option name="a4">A4</option>
+            <option name="a3">A3</option>
+            <option name="a2">A2</option>
+            <option name="a1">A1</option>
+
+
+          </select><br><br>
+          Number of portraits: <input type="number" min="0" max="10">
+          <br><br>
+          Prize: <input type="number" placeholder="rs">
+          <input type="file">
+          <br><br>
+          <a href="success.html">
+          <input class="button" type="button" value="Submit">
+          </a>
+    </body>
+</html>
